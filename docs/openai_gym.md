@@ -36,12 +36,12 @@ The following folder structure is assumed:
    * Makefile
    * omnetpp.ini
    * network.ned
-   * module.cc
    * GymConnection.cc
    * GymConnection.h
    * GymConnection.ned
    * veinsgym.pb.cc
    * veinsgym.pb.h
+   * ...
  * protobuf
    * veinsgym.proto
 
