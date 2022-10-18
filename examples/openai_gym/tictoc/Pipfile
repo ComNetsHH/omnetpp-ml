@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+veins-gym = "*"
+gym = "== 0.24.*"
+protobuf = "==3.20.*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
