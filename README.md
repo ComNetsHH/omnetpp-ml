@@ -17,6 +17,14 @@ More information can be found here:
  * [Examples](examples/tensorflow)
  * [Docker Images](https://github.com/ComNetsHH/omnetpp-ml_dockerfiles)
 
+### frugally-deep
+[frugally-deep](https://github.com/Dobiasd/frugally-deep) is a header-only library for performing inference on Keras models in C++.
+Compared to the TensorFlow C++ API, it is much easier to compile and integrate into an OMNeT++ simulation, but is limited in functionality by not supporting GPU computing or training.
+
+More information can be found here:
+ * [Documentation](docs/frugally-deep.md)
+ * [Examples](examples/frugally-deep)
+
 ### OpenAI Gym
 OMNeT++ can be wrapped in an [OpenAI Gym](https://www.gymlibrary.dev) to use an OMNeT++ simulation as an environment for Reinforcement Learning (RL) in Python.
 This is achieved by using [Veins-Gym](https://www2.tkn.tu-berlin.de/software/veins-gym), which unlike its name suggests works with any OMNeT++ simulation.

@@ -1,0 +1,12 @@
+[submodule "lib/frugally-deep"]
+	path = lib/frugally-deep
+	url = https://github.com/Dobiasd/frugally-deep.git
+[submodule "lib/eigen"]
+	path = lib/eigen
+	url = https://gitlab.com/libeigen/eigen.git
+[submodule "lib/FunctionalPlus"]
+	path = lib/FunctionalPlus
+	url = https://github.com/Dobiasd/FunctionalPlus.git
+[submodule "lib/json"]
+	path = lib/json
+	url = https://github.com/nlohmann/json.git
