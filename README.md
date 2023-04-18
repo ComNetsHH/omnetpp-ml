@@ -4,7 +4,11 @@ This repository contains materials on how to use Machine Learning (ML) framework
 
 ## Methods
 There are different methods to perform ML in OMNeT++.
-The following ones are described in this repository:
+The figure below gives an overview of the ones that are described in this repository.
+
+<div align="center">
+	<img src="docs/figures/overview.svg" width="600" alt="Overview of Machine Learning in OMNeT++">
+</div>
 
 ### TensorFlow C++ API
 [TensorFlow](https://www.tensorflow.org/) can be used directly in OMNeT++ by using its [C++ API](https://www.tensorflow.org/api_docs/cc).

@@ -1,0 +1,76 @@
+<mxfile host="Electron" modified="2023-04-18T14:48:37.140Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="b-e5D8qWqpVk0-gzA3od" version="21.1.2" type="device">
+  <diagram name="Page-1" id="br2YQsI145mMEW97udHo">
+    <mxGraphModel dx="988" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DoT1bMsHTLIw8_xpTeoz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#888888;labelBackgroundColor=none;fontColor=#888888;" parent="1" source="DoT1bMsHTLIw8_xpTeoz-1" target="DoT1bMsHTLIw8_xpTeoz-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DoT1bMsHTLIw8_xpTeoz-1" value="Reinforcement&lt;br&gt;Learning" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#888888;labelBackgroundColor=none;fontColor=#888888;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="325" y="219" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DoT1bMsHTLIw8_xpTeoz-2" value="OpenAI Gym" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#888888;labelBackgroundColor=none;fontColor=#888888;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="337.5" y="380" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DoT1bMsHTLIw8_xpTeoz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#888888;labelBackgroundColor=none;fontColor=#888888;" parent="1" source="DoT1bMsHTLIw8_xpTeoz-4" target="DoT1bMsHTLIw8_xpTeoz-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="290" />
+              <mxPoint x="95" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DoT1bMsHTLIw8_xpTeoz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#888888;labelBackgroundColor=none;fontColor=#888888;" parent="1" source="DoT1bMsHTLIw8_xpTeoz-4" target="DoT1bMsHTLIw8_xpTeoz-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="290" />
+              <mxPoint x="225" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DoT1bMsHTLIw8_xpTeoz-4" value="Supervised&lt;br&gt;Learning" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#888888;labelBackgroundColor=none;fontColor=#888888;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="105" y="219" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DoT1bMsHTLIw8_xpTeoz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#888888;labelBackgroundColor=none;fontColor=#888888;" parent="1" source="DoT1bMsHTLIw8_xpTeoz-5" target="DoT1bMsHTLIw8_xpTeoz-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DoT1bMsHTLIw8_xpTeoz-5" value="Training&amp;nbsp;or&lt;br&gt;GPU acceleration" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#888888;labelBackgroundColor=none;fontColor=#888888;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DoT1bMsHTLIw8_xpTeoz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#888888;labelBackgroundColor=none;fontColor=#888888;" parent="1" source="DoT1bMsHTLIw8_xpTeoz-6" target="DoT1bMsHTLIw8_xpTeoz-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DoT1bMsHTLIw8_xpTeoz-6" value="Inference only" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#888888;labelBackgroundColor=none;fontColor=#888888;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="170" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DoT1bMsHTLIw8_xpTeoz-7" value="TensorFlow C++ API" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#888888;labelBackgroundColor=none;fontColor=#888888;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="52.5" y="380" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DoT1bMsHTLIw8_xpTeoz-8" value="frugally-deep" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#888888;labelBackgroundColor=none;fontColor=#888888;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="182.5" y="380" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DoT1bMsHTLIw8_xpTeoz-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#888888;labelBackgroundColor=none;fontColor=#888888;" parent="1" target="DoT1bMsHTLIw8_xpTeoz-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="180" as="sourcePoint" />
+            <mxPoint x="390" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="200" />
+              <mxPoint x="160" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DoT1bMsHTLIw8_xpTeoz-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#888888;labelBackgroundColor=none;fontColor=#888888;" parent="1" target="DoT1bMsHTLIw8_xpTeoz-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="200" as="sourcePoint" />
+            <mxPoint x="360" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="200" />
+              <mxPoint x="380" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
