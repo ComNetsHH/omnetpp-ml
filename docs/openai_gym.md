@@ -11,15 +11,6 @@ Veins-Gym starts a Veins/OMNeT++ simulation binary and communicates with it via 
 All messages are serialized using [Protocol Buffers](https://developers.google.com/protocol-buffers).
 
 ## Prerequisites
-### Python
-On the Python side, the following modules are required:
- * [veins-gym](https://pypi.org/project/veins-gym/)
- * [gym](https://pypi.org/project/gym/)
- * [protobuf](https://pypi.org/project/protobuf/)
-
-The modules can be installed easily via pip.
-Additionally, a Pipfile for setting up a Python virtual environment via Pipenv can be found [here](/examples/openai_gym/tictoc/Pipfile).
-
 ### C++
 On the C++/OMNeT++ side, the following libraries are required besides a working OMNeT++ installation:
  * [ZeroMQ](https://zeromq.org)
@@ -29,6 +20,15 @@ On Linux, these libraries can be installed via the package manager of your distr
 ```bash
 sudo apt-get install libzmq3-dev libprotobuf-dev protobuf-compiler
 ```
+
+### Python
+On the Python side, the following modules are required:
+ * [veins-gym](https://pypi.org/project/veins-gym/)
+ * [gym](https://pypi.org/project/gym/)
+ * [protobuf](https://pypi.org/project/protobuf/) (Ideally, the version of the Python package should match the version of the Protocol Buffers compiler and C++ library)
+
+The modules can be installed easily via pip.
+Alternatively, a Pipfile for setting up a Python virtual environment via Pipenv can be found [here](/examples/openai_gym/tictoc/Pipfile).
 
 ## Usage
 ### Folder Structure
