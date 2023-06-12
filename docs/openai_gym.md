@@ -213,6 +213,11 @@ exec ./scenario $@
 This script passes all parameters to an OMNeT++ binary with the name `scenario`.
 The name of the OMNeT++ binary can be changed if needed.
 
-Alternatively, a symbolic link can be used.
+The script has to be made executable using the following command:
+```bash
+chmod +x run
+```
+
+Alternatively to the script, a symbolic link to the simulation binary can be used.
 
 Now, the Python code in `main.py` can be executed, which should start the OMNeT++ simulation and interact with it.
