@@ -51,7 +51,7 @@ The following folder structure is assumed:
 The meaning and content of the different files will be explained later.
 
 ### Writing the Python Code
-In order to use Veins-Gym as an environment, it has to first be registered in the Python code (`main.py`) using the following code snippet:
+In order to use Veins-Gym as an environment, it first has to be registered in the Python code (`main.py`) using the following code snippet:
 ```python
 import gym
 import veins_gym
@@ -89,13 +89,13 @@ The environment can then be created using:
 env = gym.make("veins-v1")
 ```
 
-It can then be used in the default OpenAI Gym manner:
+It can now be used in the standard OpenAI Gym manner:
 ```python
 done = False
 observation = env.reset()
 while not done:
-  action = env.action_space.sample()
-  observation, reward, done, info = env.step(action)
+    action = env.action_space.sample()
+    observation, reward, done, info = env.step(action)
 ```
 `env.action_space.sample()` should be replaced by the call to the agent to get the next action based on the last received observation.
 
@@ -154,7 +154,7 @@ The simulation is executed until the `communicate()` command is reached again.
 In order for the OMNeT++ simulation to communicate with the Python side of the Veins-Gym, it needs to be aware of the message format.
 As the communication is done by exchanging Protocol Buffers messages via TCP, the respective Protocol Buffers definition has to be converted into a C++ class.
 The Protocol Buffers definition `veinsgym.proto` can be found in the [`protobuf` folder in the Veins-Gym repository](https://github.com/tkn-tub/veins-gym/tree/master/protobuf).
-Under the assumption that the Protocol Buffers definition is located in a subdirectory called `protobuf` and the OMNeT++ simulation is located in a directory called `scenario`, the conversion can be done using the following command:
+Under the assumption that the Protocol Buffers definition is located in a subdirectory called `protobuf` and the OMNeT++ simulation code is located in a directory called `scenario`, the conversion can be done using the following command:
 ```
 protoc --proto_path protobuf --cpp_out scenario veinsgym.proto
 ```
