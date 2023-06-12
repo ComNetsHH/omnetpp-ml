@@ -159,9 +159,9 @@ Under the assumption that the Protocol Buffers definition is located in a subdir
 protoc --proto_path protobuf --cpp_out scenario veinsgym.proto
 ```
 
-### Linking the OMNeT++ binary
+### Building the OMNeT++ simulation binary
 As the GymConnection module includes the ZeroMQ library and the generated Protocol Buffers class, the OMNeT++ project has to be linked to the respective libraries.
-This can be done as follows:
+This can be done as follows using either the OMNeT++ IDE or the command-line:
 
 #### IDE
 Perform the following steps in the OMNeT++ IDE:
@@ -172,11 +172,24 @@ Perform the following steps in the OMNeT++ IDE:
    * `zmq`
    * `protobuf`
 
+The simulation binary can then be build using the IDE.
+
 #### CLI
 Add the following options to the *opp_makemake* command:
 ```
 -lzmq -lprotobuf
 ```
+The simulation binary can then be build using the *make* command.
+
+Assuming the OMNeT++ simulation code is located in a directory called `scenario`, the following commands are needed to build the simulation binary:
+```bash
+cd scenario
+opp_makemake -lzmq -lprotobuf
+make -j$(nproc)
+cd ..
+```
+
+Please note that further options might have to be added to the *opp_makemake* command if frameworks such as INET are used.
 
 ### Running the Simulation
 Veins-Gym executes a binary called `run` in the provided scenario directory.
