@@ -23,9 +23,12 @@ Additionally, a Pipfile for setting up a Python virtual environment via Pipenv c
 ### C++
 On the C++/OMNeT++ side, the following libraries are required besides a working OMNeT++ installation:
  * [ZeroMQ](https://zeromq.org)
- * [Protocol Buffers](https://developers.google.com/protocol-buffers)
+ * [Protocol Buffers](https://developers.google.com/protocol-buffers) incl. compiler
 
-On Linux, these libraries can be installed via the package manager of your distribution.
+On Linux, these libraries can be installed via the package manager of your distribution. For example, on Ubuntu 22.04 LTS, they can be installed using the following command:
+```bash
+sudo apt-get install libzmq3-dev libprotobuf-dev protobuf-compiler
+```
 
 ## Usage
 ### Folder Structure
