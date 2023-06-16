@@ -119,7 +119,7 @@ network Network
 
 The `observation_space` and `action_space` parameters define the dimensions and limits of the observations and actions as OpenAI Gym spaces.
 The parameters contain Python code that will be sent to the Python side and evaluated there when calling reset().
-A description of the OpenAI Gym spaces can be found [here](https://www.gymlibrary.ml/content/spaces/).
+A description of the OpenAI Gym spaces can be found [here](https://www.gymlibrary.dev/api/spaces/).
 Please note that an `action_serializer` has to be provided on the Python side for non-trivial action spaces [[ref]](https://github.com/tkn-tub/veins-gym/blob/master/doc/getting_started.md#data-type-descriptions-of-the-interface-to-the-agent).
 
 The module provides a single function called `communicate()` that can be called from any other module.
