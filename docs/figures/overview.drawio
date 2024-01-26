@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-04-18T14:48:37.140Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="b-e5D8qWqpVk0-gzA3od" version="21.1.2" type="device">
+<mxfile host="Electron" modified="2024-01-26T10:46:52.413Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="VyJ_3VWAZbg6oAsuw9aK" version="22.1.16" type="device">
   <diagram name="Page-1" id="br2YQsI145mMEW97udHo">
     <mxGraphModel dx="988" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
         <mxCell id="DoT1bMsHTLIw8_xpTeoz-6" value="Inference only" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#888888;labelBackgroundColor=none;fontColor=#888888;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="170" y="310" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="DoT1bMsHTLIw8_xpTeoz-7" value="TensorFlow C++ API" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#888888;labelBackgroundColor=none;fontColor=#888888;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="DoT1bMsHTLIw8_xpTeoz-7" value="TensorFlow&lt;br&gt;C++ API" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#888888;labelBackgroundColor=none;fontColor=#888888;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="52.5" y="380" width="85" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DoT1bMsHTLIw8_xpTeoz-8" value="frugally-deep" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#888888;labelBackgroundColor=none;fontColor=#888888;fillColor=none;" parent="1" vertex="1">
